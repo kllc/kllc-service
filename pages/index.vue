@@ -1,23 +1,33 @@
-
 <template>
   <el-container>
     <Header />
     <el-row class="container">
-      <el-col :xs="24" :sm="20" :md="16" :lg="16" :xl="12" class="content-wrap">
-          <el-row :gutter="0">
-            <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" style="background-color:red;">
-              a
+      <el-col :xs="24" :sm="20" :md="20" :lg="18" :xl="16" class="content-wrap">
+          <el-row>
+            <el-col :span="20" class="col-title">
+              <h1 class="box-title">QAChat</h1> 
             </el-col>
-            <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" style="background-color:green">
-              b
+            <el-col :span="4" class="col-logo">
+              <img class="img-logo" src="https://www.ikazuchi.biz/marketplace/kanri/image.php?file=service_detail.19.1.jpg" alt="">
             </el-col>
+          </el-row>
+          <el-row>
+            <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
+                <el-row> -->
+                  <el-col class="col-button">
+                    <el-button type="primary">デモページ</el-button>&nbsp;&nbsp;QAChatデモページへ
+                  </el-col>
+                <!-- </el-row>
+            </el-col> -->
+          </el-row>
+          <el-row>
             <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
               <img class="col-image" src="https://www.ikazuchi.biz/marketplace/kanri/image.php?file=service_detail.19.11.jpg" alt="">
             </el-col>
-            <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
+            <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-lead">
               <h2 class="ttl">問合わせ支援のチャットボットサービス</h2>
               <p>
-                社内／社外向けにチャットボットを導入する場合、問い合わせの回答をチャットボット自動化することで、コールセンターやカスタマーサポートの対応コストを削減できます。<br /><br />
+                社内／社外向けにチャットボットを導入する場合、問い合わせの回答をチャットボットで自動化することで、コールセンターやカスタマーサポートの対応コストを削減できます。<br /><br />
                 例えば、社内向けでは、経費や総務手続きの申請方法についての問い合わせサポート、社外向けでは、ECサイトの商品や配送料の問い合わせのサポートなど、よくある質問・問い合わせをチャットボットで対応可能です。
               </p>
             </el-col>
@@ -114,13 +124,32 @@ body {
   .el-progress {
     margin-bottom: 1em;
   }
-
+  .row-1sdt{
+    height: 80px;
+  }
+  .col-title{
+    height: 120px;
+  }
   .col-logo{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
 
+  .img-logo{
+    height: 80px;
   }
 
   .col-button{
-
+    /* height: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 40px;
   }
 
   .col-image{
@@ -130,7 +159,7 @@ body {
   }
 
   .col-lead{
-
+    padding: 20px;
   }
 
   .col-lead .ttl{
@@ -138,6 +167,44 @@ body {
     font-weight: bold;
     border-bottom: 2px solid #dcdcdc;
   }
-  
+
+ .box-title {
+	/* margin: 5px 0 0 0;
+	padding: 8px 27px;
+	font-size: 2em;
+	font-weight: bold; */
+	/* background: #edf2f7;
+  border-radius: 10px; */
+  /* padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f83600), to(#f9d423));
+  background-image: -webkit-linear-gradient(left, #f83600 0%, #f9d423 100%);
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+}
+
+.box-title {
+  position: relative;
+	margin: 5px 0 0 0;
+	padding: 8px 27px;
+  color: #fff;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f83600), to(#f9d423));
+  background-image: -webkit-linear-gradient(left, #f83600 0%, #f9d423 100%);
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.box-title:after {
+  position: absolute;
+  bottom: -9px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #f83600 transparent transparent transparent;
+}
+
 
 </style>
