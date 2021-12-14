@@ -76,6 +76,7 @@
     '游ゴシック体', 'Yu Gothic', 'YuGothic', 'Hiragino Kaku Gothic ProN',
     'ヒラギノ角ゴ ProN W3', 'メイリオ', 'Meiryo', 'sans-serif';
   margin-top: 5px;
+  max-width: calc(100vw - 147px);
   font-feature-settings: 'palt';
   font-size: 3em;
   font-weight: 600;
@@ -96,7 +97,8 @@
 }
 @media screen and (max-width: 480px) {
   .title {
-    font-size: 1.5em;
+    font-size: 1.2em;
+
   }
 }
 </style>
