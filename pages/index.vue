@@ -101,7 +101,7 @@
             <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
                 <el-row> -->
                   <el-col class="col-button">
-                    <div class="btn-copy">お問い合わせ資料請求はこちら</div>
+                    <div class="btn-copy">お問い合わせはこちら</div>
                     <a href="https://writeup-5179987.hs-sites.com/hubspot-2000-331" target="_blank" class="btn btn--orange"><i class="fas fa-phone-alt fa-position-left"></i>詳細ページ</a>
                     <!-- <el-button class="button" @click="urlopen('https://kllc.jp')" >デモページ</el-button>&nbsp;&nbsp;QAChatデモページへ -->
                   </el-col>
@@ -137,7 +137,7 @@
             <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
                 <el-row> -->
                   <el-col class="col-button">
-                    <div class="btn-copy">お問い合わせ資料請求はこちら</div>
+                    <div class="btn-copy">お問い合わせはこちら</div>
                     <a href="https://writeup-5179987.hs-sites.com/copy-1-0-203?copier_agency=kllc" target="_blank" class="btn btn--orange"><i class="fas fa-phone-alt fa-position-left"></i>詳細ページ</a>
                     <!-- <el-button class="button" @click="urlopen('https://kllc.jp')" >デモページ</el-button>&nbsp;&nbsp;QAChatデモページへ -->
                   </el-col>
@@ -174,7 +174,7 @@
             <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
                 <el-row> -->
                   <el-col class="col-button">
-                    <div class="btn-copy">お問い合わせ資料請求はこちら</div>
+                    <div class="btn-copy">お問い合わせはこちら</div>
                     <a href="https://writeup-5179987.hs-sites.com/mg-tpl-02-165-18" target="_blank" class="btn btn--orange"><i class="fas fa-phone-alt fa-position-left"></i>詳細ページ</a>
                     <!-- <el-button class="button" @click="urlopen('https://kllc.jp')" >デモページ</el-button>&nbsp;&nbsp;QAChatデモページへ -->
                   </el-col>
@@ -211,7 +211,7 @@
             <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
                 <el-row> -->
                   <el-col class="col-button">
-                    <div class="btn-copy">お問い合わせ資料請求はこちら</div>
+                    <div class="btn-copy">お問い合わせはこちら</div>
                     <a href="https://writeup-5179987.hs-sites.com/jdnjsys-63" target="_blank" class="btn btn--orange"><i class="fas fa-phone-alt fa-position-left"></i>詳細ページ</a>
                   </el-col>
                 <!-- </el-row>
@@ -247,7 +247,7 @@
             <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
                 <el-row> -->
                   <el-col class="col-button">
-                    <div class="btn-copy">お問い合わせ資料請求はこちら</div>
+                    <div class="btn-copy">お問い合わせはこちら</div>
                     <a href="https://writeup-5179987.hs-sites.com/jcon-jdn-398" target="_blank" class="btn btn--orange"><i class="fas fa-phone-alt fa-position-left"></i>詳細ページ</a>
                   </el-col>
                 <!-- </el-row>
@@ -281,7 +281,7 @@
             <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
                 <el-row> -->
                   <el-col class="col-button">
-                    <div class="btn-copy">お問い合わせ資料請求はこちら</div>
+                    <div class="btn-copy">お問い合わせはこちら</div>
                     <a href="https://writeup-5179987.hs-sites.com/jdn-webconsulting-24" target="_blank" class="btn btn--orange"><i class="fas fa-phone-alt fa-position-left"></i>詳細ページ</a>
                   </el-col>
                 <!-- </el-row>
