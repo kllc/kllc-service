@@ -98,7 +98,7 @@
 @media screen and (max-width: 480px) {
   .title {
     font-size: 1.0em;
-
+    text-align: right;
   }
 }
 </style>
