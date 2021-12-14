@@ -77,7 +77,7 @@
       <el-col :xs="24" :sm="20" :md="18" :lg="16" :xl="14" class="content-wrap">
           <el-row class="row-1st">
             <el-col :span="20" class="col-title">
-              <h1 style="border-bottom:4px solid #ffbb2a" class="box-title">ミイダス</h1>
+              <h1 style="border-bottom:4px solid #FF0401" class="box-title">ミイダス</h1>
             </el-col>
             <el-col :span="4" class="col-logo">
               <img class="img-logo" src="https://cdn2.hubspot.net/hub/5179987/hubfs/LP-dr-vol1/images/illust-p4.png?width=780&height=564&name=illust-p4.png" alt="">
@@ -93,7 +93,7 @@
                 追加料金一切なしで、年間採用し放題の採用支援サービスです。
                 定額制だから採用すればするほどオトクなプラン。<br /><br />
                 37万人以上が登録する豊富なデータベースから優秀な人材を取り放題！<br />
-都心のみならず地方企業の採用にも絶大な成果！
+                都心のみならず地方企業の採用にも絶大な成果！
               </p>
             </el-col>
           </el-row>
@@ -115,7 +115,7 @@
       <el-col :xs="24" :sm="20" :md="18" :lg="16" :xl="14" class="content-wrap">
           <el-row class="row-1st">
             <el-col :span="20" class="col-title">
-              <h1 style="border-bottom:4px solid #f55e61" class="box-title">コピー機革命</h1>
+              <h1 style="border-bottom:4px solid #7E868A" class="box-title">コピー機革命</h1>
             </el-col>
             <el-col :span="4" class="col-logo">
               <img class="img-logo" src="https://cdn2.hubspot.net/hubfs/5179987/%E3%82%B3%E3%83%94%E3%83%BC%E3%82%AD%E9%9D%A9%E5%91%BD%EF%BC%88%E3%83%87%E3%83%95%E3%82%A9%E3%83%AB%E3%83%88%EF%BC%89/c_ph05.jpg" alt="">
@@ -188,7 +188,7 @@
       <el-col :xs="24" :sm="20" :md="18" :lg="16" :xl="14" class="content-wrap">
           <el-row class="row-1st">
             <el-col :span="20" class="col-title">
-              <h1 style="border-bottom:4px solid #c3343b" class="box-title">Jシステム</h1>
+              <h1 style="border-bottom:4px solid #164ca4" class="box-title">Jシステム</h1>
             </el-col>
             <el-col :span="4" class="col-logo">
               <img class="img-logo" src="https://www.jengine.jp/assets/images/_top-illust-ph03.jpg" alt="">
@@ -291,7 +291,7 @@
     </el-row>
 
 
-    <el-footer>: container for footers.
+    <el-footer class="footer">©2021KLLC
     </el-footer>
 
   </el-container>
@@ -464,15 +464,15 @@ body {
   .btn--orange,
   a.btn--orange {
     color: #fff;
-    background-color: #ef7353;
-    border:1px solid #773929;
+    background-color: #ee6033;
+    border:2px solid #ee6033;
     width:20%;
   }
   .btn--orange:hover,
   a.btn--orange:hover {
-    color: #fff;
-    background: #f2915c;
-    border:1px solid #773929;
+    color: #ee6033;
+    background: #fff;
+    border:2px solid #ee6033;
   }
 
   .fa-position-left {
@@ -529,6 +529,14 @@ body {
   .btn-copy:after {
     margin-left: 1rem;
     content: '／';
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color: #777;
   }
 
 </style>

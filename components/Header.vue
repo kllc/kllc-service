@@ -1,6 +1,6 @@
 <template>
   <el-header class="head">
-    <div class="logo">
+    <div class="logo" @click="$urlopen('https://kllc.jp')">
       <svg
         class="logo"
         version="1.1"
@@ -69,6 +69,7 @@
   height: 50px;
   position: absolute;
   left: 5px;
+  cursor: pointer;
 }
 .title {
   font-family: 'neue-haas-grotesk-text', 'source-han-sans-japanese',
