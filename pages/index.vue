@@ -522,12 +522,12 @@ body {
   }
 
   .btn-copy:before {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     content: '＼';
   }
 
   .btn-copy:after {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     content: '／';
   }
 
