@@ -1,5 +1,5 @@
 const urlopen = (url) => {
-      window.open(url);
+      window.location.href = url;
 }
 
 export default ({}, inject) => {
