@@ -290,6 +290,8 @@
       </el-col>
     </el-row>
 
+    <div id="live-ec" data-key="nhLlRdOIFSC8fbeHE8O6A856JKqxeIw7UrrC1QmKqxo=" data-icon="mdi-microsoft-teams" data-right="30" data-bottom="50"></div>
+    <script src="https://kllc.github.io/repo/script/live-ec.js"></script>
 
     <el-footer class="footer">©2021KLLC
     </el-footer>
