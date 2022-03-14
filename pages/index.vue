@@ -6,7 +6,7 @@
         <el-row class="row-1st">
           <el-col :span="20" class="col-title">
             <h1 style="border-bottom: 4px solid #fd9534" class="box-title">
-              QAChat
+              ドローンマッチング
             </h1>
           </el-col>
           <el-col :span="4" class="col-logo">
@@ -26,7 +26,9 @@
             />
           </el-col>
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-lead">
-            <h2 class="ttl">ドローンマッチング</h2>
+            <h2 class="ttl">
+              農家とドローンパイロットをつなぐマッチングサービス
+            </h2>
             <p>
               アーカス・ジャパン株式会社が提供する、農家とドローンパイロットをつなぐマッチングサービス「ドローンマッチング」です。<br /><br />
               アーカス・ジャパンはリベルダージが運営するドローンスクール管理団体「ドローンビジネスアカデミー（UBA）」に所属する講習団体であり、実際に農業散布ドローンの販売や散布代行を行っており、そこで得た経験や知識をAIアルゴリズムとして取り入れました。<br /><br />
