@@ -12,7 +12,7 @@
           <el-col :span="4" class="col-logo">
             <img
               class="img-logo"
-              src="https://agri.dronematching.com/SideWaysLogo.svg"
+              src="https://kllc.github.io/repo/img/dronelogo.png"
               alt=""
             />
           </el-col>
@@ -21,7 +21,7 @@
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
             <img
               class="col-image"
-              src="https://drone-journal.impress.co.jp/img/drone/docs/1184/068/1184068_01_l.png"
+              src="https://agri.dronematching.com/_nuxt/img/matching.e737fdc.png"
               alt=""
             />
           </el-col>
@@ -31,8 +31,8 @@
             </h2>
             <p>
               アーカス・ジャパン株式会社が提供する、農家とドローンパイロットをつなぐマッチングサービス「ドローンマッチング」です。<br /><br />
-              アーカス・ジャパンはリベルダージが運営するドローンスクール管理団体「ドローンビジネスアカデミー（UBA）」に所属する講習団体であり、実際に農業散布ドローンの販売や散布代行を行っており、そこで得た経験や知識をAIアルゴリズムとして取り入れました。<br /><br />
-              CRM（顧客管理）とAIが一体となり、ドローンの仕事を依頼したい者と受注したいドローンパイロットをマッチングするサービスを提供します。<br /><br />
+              アーカス・ジャパンはリベルダージが運営するドローンスクール管理団体「ドローンビジネスアカデミー（UBA）」に所属する講習団体であり、実際に農業散布ドローンの販売や散布代行を行っており、そこで得た経験や知識をAIアルゴリズムとして取り入れました。<br />
+              CRM（顧客管理）とAIが一体となり、ドローンの仕事を依頼したい方と受注したいドローンパイロットをマッチングするサービスを提供しています。
             </p>
           </el-col>
         </el-row>
