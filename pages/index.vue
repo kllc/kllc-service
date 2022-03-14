@@ -12,7 +12,7 @@
           <el-col :span="4" class="col-logo">
             <img
               class="img-logo"
-              src="https://drone-journal.impress.co.jp/img/drone/docs/1184/068/1184068_01_l.png"
+              src="https://agri.dronematching.com/SideWaysLogo.svg"
               alt=""
             />
           </el-col>
@@ -21,17 +21,16 @@
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
             <img
               class="col-image"
-              src="https://drone-journal.impress.co.jp/img/drone/docs/1184/068/1184068_02_l.png"
+              src="https://drone-journal.impress.co.jp/img/drone/docs/1184/068/1184068_01_l.png"
               alt=""
             />
           </el-col>
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-lead">
             <h2 class="ttl">ドローンマッチング</h2>
             <p>
-              アーカス・ジャパン株式会社が提供する、農家とドローンパイロットをつなぐマッチングサービス「ドローンマッチング」。<br />
-              アーカス・ジャパンはリベルダージが運営するドローンスクール管理団体「ドローンビジネスアカデミー（UBA）」に所属する講習団体であり、実際に農業散布ドローンの販売や散布代行を行っており、そこで得た経験や知識をAIアルゴリズムとして取り入れ、CRM（顧客管理）とAIが一体となり、ドローンの仕事を依頼したい者と受注したいドローンパイロットをマッチングするサービスを提供する。<br />
-              Ｋ合同会社ではフロントのNuxt.jsと、データ管理のDynamics
-              365、フロントとデータをつなぐ Azure Functionを担当。
+              アーカス・ジャパン株式会社が提供する、農家とドローンパイロットをつなぐマッチングサービス「ドローンマッチング」です。<br /><br />
+              アーカス・ジャパンはリベルダージが運営するドローンスクール管理団体「ドローンビジネスアカデミー（UBA）」に所属する講習団体であり、実際に農業散布ドローンの販売や散布代行を行っており、そこで得た経験や知識をAIアルゴリズムとして取り入れました。<br /><br />
+              CRM（顧客管理）とAIが一体となり、ドローンの仕事を依頼したい者と受注したいドローンパイロットをマッチングするサービスを提供します。<br /><br />
             </p>
           </el-col>
         </el-row>
@@ -44,7 +43,7 @@
               href="https://agri.dronematching.com/"
               target="_blank"
               class="btn btn--orange"
-              ><i class="fas fa-phone-alt fa-position-left"></i>デモページ</a
+              ><i class="fas fa-phone-alt fa-position-left"></i>登録ページ</a
             >
             <!-- <el-button class="button" @click="urlopen('https://kllc.jp')" >デモページ</el-button>&nbsp;&nbsp;QAChatデモページへ -->
           </el-col>
