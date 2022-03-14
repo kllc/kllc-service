@@ -12,7 +12,7 @@
           <el-col :span="4" class="col-logo">
             <img
               class="img-logo"
-              src="https://kllc.github.io/repo/img/dronelogo.png"
+              src="https://kllc.github.io/repo/img/pointlogo.png"
               alt=""
             />
           </el-col>
