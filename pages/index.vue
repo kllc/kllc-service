@@ -107,7 +107,7 @@
       </el-col>
     </el-row>
 
-    <el-row v-if="false" class="container">
+    <el-row class="container">
       <el-col :xs="24" :sm="20" :md="18" :lg="16" :xl="14" class="content-wrap">
         <el-row class="row-1st">
           <el-col :span="20" class="col-title">
