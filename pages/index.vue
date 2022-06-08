@@ -480,10 +480,10 @@
     ></div>
     <script src="https://kllc.github.io/repo/script/live-ec.js"></script> -->
     <div
-      id="live-ec"
+      id="livelp"
       data-key="fa8461525e2c881c29622abd622147ae648d2a1181b4959d602ae5af91977721"
     ></div>
-    <script src="https://live-ec.net/1.1.0/live-ec.js"></script>
+    <script src="https://livelp.net/1.1.1/livelp.js"></script>
 
     <el-footer class="footer">©2021KLLC </el-footer>
   </el-container>
