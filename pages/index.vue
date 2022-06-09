@@ -391,7 +391,7 @@
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
             <img
               class="col-image"
-              src="https://5179987.fs1.hubspotusercontent-na1.net/hub/5179987/hubfs/jcon%EF%BC%88LP%EF%BC%89/m3-img1.jpg?width=660&height=301&name=m3-img1.jpg"
+              src="https://5179987.fs1.hubspotusercontent-na1.net/hub/5179987/hubfs/jcon%EF%BC%88LP%EF%BC%89/m2-img1.png?width=600&height=312&name=m2-img1.png"
               alt=""
             />
           </el-col>
