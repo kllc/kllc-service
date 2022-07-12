@@ -483,8 +483,37 @@
       id="livelp"
       data-key="fa8461525e2c881c29622abd622147ae648d2a1181b4959d602ae5af91977721"
     ></div>
-    <script src2"0ttps://livelp.net/1.1.4/livelp.js"></script>
-ript>
+    <script src="https://livelp.net/1.2.0/livelp.js"></script>
+
+    <el-footer class="footer">©2021KLLC </el-footer>
+  </el-container>
+</template>
+
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
+  data() {
+    return {
+      value: null,
+      dialogVisible: false,
+      colors: ['#99A9BF', '#F7BA2A', '#FF9900'],
+    }
+  },
+  methods: {
+    handleClose(done: any) {
+      this.$confirm('Are you sure to close this dialog?')
+        .then((_) => {
+          done()
+        })
+        .catch((_) => {})
+    },
+    urlopen(url: string) {
+      window.open(url)
+    },
+  },
+})
+</script>
 
 <style>
 body {
