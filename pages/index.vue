@@ -128,7 +128,7 @@
             <img class="col-image" src="/img-kllc.jpg" alt="" />
           </el-col>
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-lead">
-            <h2 class="ttl">経験と価値の交換所「SAPPRO NEST」</h2>
+            <h2 class="ttl">経験と価値の交換所「SAPPORO NEST」</h2>
             <p>
               オフィスという形に捉われない自由度の高さをコンセプトに、あなたの起業、副業をサポートいたします。<br />デスクワーク以外の業態にも対応できるプランもご用意しております。<br /><br />
               起業家向けの様々な支援サービスのほか、事業内容により、東京の新規お取引先・顧客のご紹介も可能です。<br />
