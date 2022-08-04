@@ -112,7 +112,7 @@
         <el-row class="row-1st">
           <el-col :span="20" class="col-title">
             <h1 style="border-bottom: 4px solid #388bf3" class="box-title">
-              SAPPRO NEST
+              SAPPORO NEST
             </h1>
           </el-col>
           <el-col :span="4" class="col-logo">
@@ -125,11 +125,7 @@
         </el-row>
         <el-row>
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
-            <img
-              class="col-image"
-              src="https://sapporo.nest.co.jp/wp-content/themes/sapporonest/images/fac_img01.jpg"
-              alt=""
-            />
+            <img class="col-image" src="./assets/image-kllc.jp" alt="" />
           </el-col>
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-lead">
             <h2 class="ttl">経験と価値の交換所「SAPPRO NEST」</h2>
@@ -483,11 +479,14 @@
       id="livelp"
       data-key="fa8461525e2c881c29622abd622147ae648d2a1181b4959d602ae5af91977721"
     ></div>
-    <script src="https://livelp.net/1.2.2/livelp.js"></script>
 
     <el-footer class="footer">©2021KLLC </el-footer>
   </el-container>
 </template>
+<script
+  type="application/javascript"
+  src="https://livelp.net/1.2.2/livelp.js"
+></script>
 
 <script lang="ts">
 import Vue from 'vue'
