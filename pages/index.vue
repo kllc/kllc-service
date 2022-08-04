@@ -125,7 +125,7 @@
         </el-row>
         <el-row>
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
-            <img class="col-image" src="/img-kllc.jpg" alt="" />
+            <img class="col-image" src="/kllc-service/img-kllc.jpg" alt="" />
           </el-col>
           <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-lead">
             <h2 class="ttl">経験と価値の交換所「SAPPORO NEST」</h2>
