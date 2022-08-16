@@ -30,7 +30,7 @@
             <p>
               LiveLPは、ホームページに設置して、オンラインで直接顧客を獲得できるツールです。<br />
               ランディングページやECサイトに設置して、売上UPに貢献します。<br /><br />
-              今訪問中のお客様と直接チャットができ、ZoomやTeamsなど、任意のURLからお客様とオンライン商談ができます。<br />
+              今訪問中のお客様と直接チャットができ、ZoomやTeamsなど、任意のURLを設定してお客様と直接オンライン商談ができます。<br />
               Lineに連携することもできるため、出先からでも対応することができます。<br />
               無料でお試しいただけますので、すぐに効果を確認できます。
             </p>
@@ -40,7 +40,7 @@
           <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
                 <el-row> -->
           <el-col class="col-button">
-            <div class="btn-copy">登録はこちら</div>
+            <div class="btn-copy">無料登録はこちら</div>
             <a
               href="https://livelp.net/"
               target="_blank"
