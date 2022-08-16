@@ -6,6 +6,60 @@
         <el-row class="row-1st">
           <el-col :span="20" class="col-title">
             <h1 style="border-bottom: 4px solid #fd9534" class="box-title">
+              Live LP
+            </h1>
+          </el-col>
+          <el-col :span="4" class="col-logo">
+            <img
+              class="img-logo"
+              src="https://livelp.net/top/logo.svg"
+              alt=""
+            />
+          </el-col>
+        </el-row>
+        <el-row>
+          <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12">
+            <img
+              class="col-image"
+              src="https://livelp.net/top/icon02.jpg"
+              alt=""
+            />
+          </el-col>
+          <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-lead">
+            <h2 class="ttl">オンライン接客ツール</h2>
+            <p>
+              LiveLPは、ホームページに設置して、オンラインで直接顧客を獲得できるツールです。<br />
+              ランディングページやECサイトに設置して、売上UPに貢献します。<br /><br />
+              今訪問中のお客様と直接チャットができ、ZoomやTeamsなど、任意のURLからお客様とオンライン商談ができます。<br />
+              Lineに連携することもできるため、出先からでも対応することができます。<br />
+              無料でお試しいただけますので、すぐに効果を確認できます。
+            </p>
+          </el-col>
+        </el-row>
+        <el-row class="row-button">
+          <!-- <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" class="col-button">
+                <el-row> -->
+          <el-col class="col-button">
+            <div class="btn-copy">登録はこちら</div>
+            <a
+              href="https://livelp.net/"
+              target="_blank"
+              class="btn btn--orange"
+              ><i class="fas fa-phone-alt fa-position-left"></i>登録ページ</a
+            >
+            <!-- <el-button class="button" @click="urlopen('https://kllc.jp')" >デモページ</el-button>&nbsp;&nbsp;QAChatデモページへ -->
+          </el-col>
+          <!-- </el-row>
+            </el-col> -->
+        </el-row>
+      </el-col>
+    </el-row>
+
+    <el-row class="container">
+      <el-col :xs="24" :sm="20" :md="18" :lg="16" :xl="14" class="content-wrap">
+        <el-row class="row-1st">
+          <el-col :span="20" class="col-title">
+            <h1 style="border-bottom: 4px solid #fd9534" class="box-title">
               ドローンマッチング
             </h1>
           </el-col>
@@ -479,14 +533,14 @@
       id="livelp"
       data-key="fa8461525e2c881c29622abd622147ae648d2a1181b4959d602ae5af91977721"
     ></div>
+    <script
+      type="application/javascript"
+      src="https://livelp.net/1.2.2/livelp.js"
+    ></script>
 
     <el-footer class="footer">©2021KLLC </el-footer>
   </el-container>
 </template>
-<script
-  type="application/javascript"
-  src="https://livelp.net/1.2.2/livelp.js"
-></script>
 
 <script lang="ts">
 import Vue from 'vue'
