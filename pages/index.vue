@@ -535,7 +535,7 @@
     ></div>
     <script
       type="application/javascript"
-      src="https://livelp.net/1.2.3/livelp.js"
+      src="https://livelp.net/1.2.5/livelp.js"
     ></script>
 
     <el-footer class="footer">©2021KLLC </el-footer>
