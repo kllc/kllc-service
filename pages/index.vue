@@ -537,7 +537,10 @@
       type="application/javascript"
       src="https://livelp.net/1.2.6/livelp.js"
     ></script>
-
+    <a
+      href="https://livelp.net/1.2.6/iframe.html?key=fa8461525e2c881c29622abd622147ae648d2a1181b4959d602ae5af91977721"
+      >リンク</a
+    >
     <el-footer class="footer">©2021KLLC </el-footer>
   </el-container>
 </template>
