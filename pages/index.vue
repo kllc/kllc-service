@@ -70,7 +70,7 @@
       <div class="lp-hero__inner">
         <div class="lp-hero__content">
           <div class="lp-hero__badge">
-            Microsoft Copilot 活用支援
+            AI Agent 構築支援サービス
           </div>
           <h1 class="lp-hero__title">
             Low-code / No-code で<br /><em class="title-em">AI Agent</em>
@@ -221,7 +221,7 @@
           <h2 class="section-title">支援実績・関連サービス</h2>
           <div class="section-underline"></div>
           <p class="section-subtitle">
-            K合同会社が手がけた支援企業・関連サービス／製品の一部です。
+            K合同会社が支援させて頂いた企業・関連サービス／製品の一部です。
           </p>
         </div>
         <div class="portfolio-grid">

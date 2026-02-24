@@ -13,7 +13,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'KLLC Service',
+    title: 'AI Agent 構築支援サービス',
     htmlAttrs: {
       lang: 'en',
     },
