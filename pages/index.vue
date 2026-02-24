@@ -221,7 +221,7 @@
           <h2 class="section-title">支援実績・関連サービス</h2>
           <div class="section-underline"></div>
           <p class="section-subtitle">
-            K合同会社が手がけたプロダクト・パートナーサービスの一部です。
+            K合同会社が手がけた支援企業・関連サービス／製品の一部です。
           </p>
         </div>
         <div class="portfolio-grid">
