@@ -52,6 +52,7 @@
           <nav class="lp-header__nav">
             <a href="#overview" class="lp-header__nav-link">サービス概要</a>
             <a href="#services" class="lp-header__nav-link">提供メニュー</a>
+            <a href="#products" class="lp-header__nav-link">対象製品</a>
             <a href="#flow" class="lp-header__nav-link">支援の流れ</a>
             <a href="#portfolio" class="lp-header__nav-link">実績・関連</a>
             <a
@@ -70,7 +71,7 @@
       <div class="lp-hero__inner">
         <div class="lp-hero__content">
           <div class="lp-hero__badge">
-            Microsoft Copilot 活用支援
+            Microsoft パートナー
           </div>
           <h1 class="lp-hero__title">
             Low-code / No-code で<br /><em class="title-em">AI Agent</em>
@@ -78,22 +79,73 @@
           </h1>
           <p class="lp-hero__lead">
             Microsoft Copilot Studio・Power Platform を活用し、<br />
-            お客様企業の市民開発者が自ら AI Agent を構築・運用できる環境を<br />
+            お客様企業の市民開発者が自ら AI Agent を構築・運用できる環境を、<br />
             K合同会社が伴走しながら実現します。
           </p>
           <div class="lp-hero__actions">
             <a href="#contact" class="btn btn--primary"
-              >お問い合わせ</a
+              >お問い合わせ・資料請求</a
             >
             <a href="#services" class="btn btn--outline">サービス内容を見る</a>
           </div>
         </div>
         <div class="lp-hero__visual">
-          <img
-            src="/kllc-service/top.png"
-            alt="AI Agent 構築支援サービス イメージ"
-            class="hero-top-image"
-          />
+          <div class="hero-visual-box">
+            <!-- Microsoft 365 Copilot -->
+            <div class="hero-visual-item">
+              <span class="hero-visual-icon">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                  <path d="M24 4 A20 20 0 0 1 44 24" stroke="#0078D4" stroke-width="7" stroke-linecap="round"/>
+                  <path d="M44 24 A20 20 0 0 1 24 44" stroke="#107C10" stroke-width="7" stroke-linecap="round"/>
+                  <path d="M24 44 A20 20 0 0 1 4 24" stroke="#FFB900" stroke-width="7" stroke-linecap="round"/>
+                  <path d="M4 24 A20 20 0 0 1 24 4" stroke="#D83B01" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span>Microsoft 365 Copilot</span>
+            </div>
+            <!-- Copilot Studio -->
+            <div class="hero-visual-item">
+              <span class="hero-visual-icon">
+                <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                  <rect x="2" y="2" width="44" height="44" rx="10" fill="#7B2FBE"/>
+                  <path d="M24 11 L27 21 L38 24 L27 27 L24 37 L21 27 L10 24 L21 21 Z" fill="white"/>
+                </svg>
+              </span>
+              <span>Copilot Studio</span>
+            </div>
+            <!-- Power Platform -->
+            <div class="hero-visual-item">
+              <span class="hero-visual-icon">
+                <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                  <rect x="2" y="2" width="44" height="44" rx="10" fill="#742774"/>
+                  <path d="M27 8 L16 26 H23 L21 40 L32 22 H25 Z" fill="white"/>
+                </svg>
+              </span>
+              <span>Power Platform</span>
+            </div>
+            <!-- Azure OpenAI -->
+            <div class="hero-visual-item">
+              <span class="hero-visual-icon">
+                <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                  <defs>
+                    <linearGradient id="azGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#50C0F0"/>
+                      <stop offset="100%" stop-color="#0078D4"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="2" y="2" width="44" height="44" rx="10" fill="url(#azGrad)"/>
+                  <path d="M22 10 L8 36 H19 L24 26 L29 36 H40 L26 10 Z" fill="white"/>
+                  <path d="M19 30 H29" stroke="#0078D4" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span>Azure OpenAI</span>
+            </div>
+            <div class="hero-visual-center">
+              <div class="hero-visual-center__circle">
+                <span>AI<br />Agent</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -109,10 +161,11 @@
         <div class="lp-overview__content">
           <div class="lp-overview__text">
             <p class="section-body">
-              K合同会社は、Microsoft パートナーとして、 お客様が
+              K合同会社は、Microsoft 生成AI
+              事業化支援プログラムに参画するパートナーとして、 お客様企業が
               <strong>Low-code / No-code</strong> による AI Agent
-              を自ら構築できるよう
-              導入計画の策定から内製化定着まで一貫して支援します。
+              を自ら構築できるよう、
+              導入計画の策定から内製化定着まで、一貫して支援します。
             </p>
             <p class="section-body">
               Microsoft Copilot Studio や Power Platform
@@ -136,7 +189,9 @@
                 <li>ガバナンス・セキュリティポリシー策定支援</li>
               </ul>
               <p class="offering-card__note">
-                ※ Microsoft 365 Copilot / Copilot Studio / Power Platform を中心に、Azure OpenAI Service や 場合によっては Azure Functions / Azure AI Search を含めたご提案を行います。
+                ※ Microsoft 365 Copilot / Copilot Studio / Power Platform
+                を中心に、Azure
+                やサードパーティ技術を組み合わせたオファリングも対象です。
               </p>
             </div>
           </div>
@@ -169,7 +224,7 @@
       <div class="lp-section-inner">
         <div class="section-head section-head--center">
           <p class="section-eyebrow">SERVICES</p>
-          <h2 class="section-title">6 つの支援サービス</h2>
+          <h2 class="section-title">5 つの支援サービス</h2>
           <div class="section-underline"></div>
           <p class="section-subtitle">
             お客様のフェーズや課題に合わせて、最適なメニューをご提案・組み合わせてご提供します。
@@ -177,6 +232,7 @@
         </div>
         <div class="services-grid">
           <div v-for="svc in services" :key="svc.id" class="service-card">
+            <div class="service-card__num">0{{ svc.id }}</div>
             <div class="service-card__icon">{{ svc.icon }}</div>
             <h3 class="service-card__name">{{ svc.name }}</h3>
             <p class="service-card__desc">{{ svc.desc }}</p>
@@ -188,6 +244,33 @@
       </div>
     </section>
 
+    <!-- ========== PRODUCTS ========== -->
+    <section id="products" class="lp-products">
+      <div class="lp-section-inner">
+        <div class="section-head section-head--center">
+          <p class="section-eyebrow">TECH STACK</p>
+          <h2 class="section-title">Microsoft 製品を中心とした技術スタック</h2>
+          <div class="section-underline"></div>
+        </div>
+        <div class="products-grid">
+          <div v-for="prod in products" :key="prod.name" class="product-card">
+            <div class="product-card__icon">{{ prod.icon }}</div>
+            <h3 class="product-card__name">{{ prod.name }}</h3>
+            <p class="product-card__desc">{{ prod.desc }}</p>
+          </div>
+        </div>
+        <div class="products-note">
+          <span class="products-note__icon">ℹ️</span>
+          <p>
+            上記製品を活用してお客様企業内の市民開発者の AI Agent
+            構築を促進するものであれば、<strong
+              >Microsoft
+              Azure・サードパーティ製品・当社独自技術を組み合わせたオファリングも対象</strong
+            >となります。
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- ========== FLOW ========== -->
     <section id="flow" class="lp-flow">
@@ -218,7 +301,7 @@
       <div class="lp-section-inner">
         <div class="section-head section-head--center">
           <p class="section-eyebrow">PORTFOLIO</p>
-          <h2 class="section-title">支援実績・関連サービス</h2>
+          <h2 class="section-title">関連サービス・開発実績</h2>
           <div class="section-underline"></div>
           <p class="section-subtitle">
             K合同会社が手がけたプロダクト・パートナーサービスの一部です。
@@ -270,18 +353,18 @@
               AI Agent 構築支援について<br />まずはお気軽にご相談ください
             </h2>
             <p class="lp-contact__lead">
-              ご相談・お見積りなど、下記よりお気軽にお問い合わせください。<br />
+              資料請求・ご相談・お見積りなど、下記よりお気軽にお問い合わせください。<br />
               受付時間：平日 9:00〜18:00
             </p>
           </div>
           <div class="lp-contact__action">
             <a
-              href="https://assets-jpn.mkt.dynamics.com/23f2df5b-b80d-4ed4-bc44-f84c6fefa764/digitalassets/standaloneforms/6f7dc7bb-2311-f111-8342-7ced8deac003"
+              href="https://assets-jpn.mkt.dynamics.com/23f2df5b-b80d-4ed4-bc44-f84c6fefa764/digitalassets/standaloneforms/0d673110-2d86-ee11-be36-6045bd6839be"
               target="_blank"
               rel="noopener noreferrer"
               class="btn btn--white-solid"
             >
-              お問い合わせはこちら →
+              お問い合わせ・資料請求はこちら →
             </a>
             <p class="lp-contact__note">無料相談受付中</p>
           </div>
@@ -329,17 +412,6 @@ export default Vue.extend({
       services: [
         {
           id: 1,
-          icon: '📓',
-          name: 'Copilot Studio 研修',
-          desc: 'Copilot Studio を活用した AI Agent の構築ハンズオン研修を実施します。',
-          points: [
-            'Copilot Studio の基本操作・カスタマイズ基礎',
-            'AI Agent の設計・構築・公開方法',
-            'Copilot Studio を活用した業務フロー運用支援',
-          ],
-        },
-        {
-          id: 2,
           icon: '🤝',
           name: '伴走支援',
           desc: 'AI Agent 活用の計画策定から運用定着まで、専任コンサルタントが継続的に伴走します。',
@@ -350,7 +422,7 @@ export default Vue.extend({
           ],
         },
         {
-          id: 3,
+          id: 2,
           icon: '🏛️',
           name: 'CoE 支援',
           desc: '社内に AI Agent 活用推進の中核組織（Center of Excellence）を立ち上げ、自走できる体制を構築します。',
@@ -361,7 +433,7 @@ export default Vue.extend({
           ],
         },
         {
-          id: 4,
+          id: 3,
           icon: '🏭',
           name: '内製化支援',
           desc: '市民開発者が自ら AI Agent を構築・改善できるスキルと環境を整備します。',
@@ -372,7 +444,7 @@ export default Vue.extend({
           ],
         },
         {
-          id: 5,
+          id: 4,
           icon: '🔒',
           name: 'ガバナンス策定支援',
           desc: 'AI Agent の安全・適切な活用に向けたガバナンスポリシーおよびセキュリティ基準を策定します。',
@@ -383,7 +455,7 @@ export default Vue.extend({
           ],
         },
         {
-          id: 6,
+          id: 5,
           icon: '🔌',
           name: 'Connector / MCP 開発',
           desc: 'お客様固有のシステムやデータ資産を AI Agent から活用できるよう、カスタム Connector および MCP を開発します。',
@@ -394,7 +466,28 @@ export default Vue.extend({
           ],
         },
       ],
-
+      products: [
+        {
+          icon: '🤖',
+          name: 'Microsoft 365 Copilot',
+          desc: 'Word・Excel・Teams などに統合された AI アシスタント。業務全体の生産性を向上させます。',
+        },
+        {
+          icon: '🛠️',
+          name: 'Microsoft Copilot Studio',
+          desc: 'Low-code で独自の AI Agent を設計・構築・公開できるプラットフォーム。プログラミング不要で業務特化の Agent を作成可能です。',
+        },
+        {
+          icon: '⚡',
+          name: 'Power Platform',
+          desc: 'Power Apps・Power Automate・Power BI からなる製品群。データ連携・自動化・アプリ開発を Low-code で実現します。',
+        },
+        {
+          icon: '☁️',
+          name: 'Microsoft Azure / その他',
+          desc: 'Azure OpenAI Service をはじめとした Azure サービスや、サードパーティ・当社独自技術との組み合わせも対象です。',
+        },
+      ],
       steps: [
         {
           title: '現状ヒアリング・課題整理',
@@ -419,9 +512,17 @@ export default Vue.extend({
       ],
       portfolio: [
         {
+          icon: '🤖',
+          name: 'Alive — 生成AI接客サービス',
+          tag: '自社プロダクト',
+          color: '#f97316',
+          desc: 'ChatGPT搭載の AI チャットボット。管理画面から Q&A・指示を設定するだけで、企業・店舗にカスタマイズされた自動応答を実現。多言語・音声対応。',
+          url: 'https://livelp.net/',
+        },
+        {
           icon: '🗼',
           name: 'TOKYO NEST',
-          tag: '支援実績',
+          tag: 'パートナー',
           color: '#6366f1',
           desc: '起業家・副業者向けの自由度の高いレンタルオフィス。CoWorking スペースも完備。東京の新規取引先・顧客紹介サービスも提供。',
           url: 'https://www.tokyo-nest.jp/',
@@ -429,18 +530,10 @@ export default Vue.extend({
         {
           icon: '🏢',
           name: 'SAPPORO NEST',
-          tag: '支援実績',
+          tag: 'パートナー',
           color: '#6366f1',
           desc: 'SapporoNest（サッポロネスト）は札幌・大通駅周辺にあるレンタルオフィスです。アクセス抜群の好立地で鍵つき完全個室を提供。',
           url: 'https://sapporo.nest.co.jp/',
-        },
-        {
-          icon: '🤖',
-          name: 'Alive — 生成AI接客サービス',
-          tag: '関連サービス',
-          color: '#f97316',
-          desc: '生成AI搭載の チャットボット。管理画面から Q&A・指示を設定するだけで、企業・店舗にカスタマイズされた自動応答を実現。多言語・音声応答対応。',
-          url: 'https://alivehub.net/',
         }
       ],
     }
@@ -661,12 +754,71 @@ body {
   justify-content: center;
   align-items: center;
 }
-.hero-top-image {
-  width: 100%;
-  max-width: 520px;
-  height: auto;
+.hero-visual-box {
+  position: relative;
+  width: 340px;
+  height: 340px;
+}
+.hero-visual-item {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
   border-radius: 12px;
-  display: block;
+  padding: 14px 18px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #3d4759;
+  width: 130px;
+  text-align: center;
+}
+.hero-visual-item:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.hero-visual-item:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.hero-visual-item:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+.hero-visual-item:nth-child(4) {
+  bottom: 0;
+  right: 0;
+}
+.hero-visual-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.hero-visual-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-visual-center__circle {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0078d4, #005a9e);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.3;
+  box-shadow: 0 0 0 8px #deecf9, 0 0 0 16px rgba(0, 120, 212, 0.1);
 }
 
 /* ===== BUTTONS ===== */
@@ -763,7 +915,7 @@ body {
 /* ===== OVERVIEW ===== */
 .lp-overview {
   padding: 96px 0;
-  background: #f5f7fa;
+  background: #fff;
 }
 .lp-overview__content {
   display: grid;
@@ -772,7 +924,7 @@ body {
   align-items: start;
 }
 .offering-card {
-  background: #fff;
+  background: #f5f9ff;
   border-left: 4px solid #0078d4;
   border-radius: 0 8px 8px 0;
   padding: 24px 28px;
@@ -911,7 +1063,7 @@ body {
 /* ===== SERVICES ===== */
 .lp-services {
   padding: 96px 0;
-  background: #fff;
+  background: #f5f7fa;
 }
 .services-grid {
   display: grid;
@@ -976,6 +1128,69 @@ body {
   color: #0078d4;
 }
 
+/* ===== PRODUCTS ===== */
+.lp-products {
+  padding: 96px 0;
+  background: #fff;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.product-card {
+  background: #f5f9ff;
+  border: 1px solid #deecf9;
+  border-radius: 8px;
+  padding: 28px 20px;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.product-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 120, 212, 0.1);
+  transform: translateY(-3px);
+}
+.product-card__icon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+.product-card__name {
+  margin: 0 0 10px;
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: #0078d4;
+  line-height: 1.4;
+}
+.product-card__desc {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #637087;
+  line-height: 1.75;
+}
+.products-note {
+  background: #fffbeb;
+  border: 1px solid #fcd34d;
+  border-radius: 8px;
+  padding: 18px 24px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 0.88rem;
+  color: #4a4a3a;
+  line-height: 1.8;
+}
+.products-note__icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.products-note p {
+  margin: 0;
+}
+.products-note strong {
+  color: #92400e;
+}
 
 /* ===== FLOW ===== */
 .lp-flow {
@@ -1220,6 +1435,9 @@ body {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1246,6 +1464,9 @@ body {
   .services-grid {
     grid-template-columns: 1fr;
   }
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
@@ -1268,6 +1489,7 @@ body {
   }
   .lp-overview,
   .lp-services,
+  .lp-products,
   .lp-flow,
   .lp-portfolio {
     padding: 64px 0;
